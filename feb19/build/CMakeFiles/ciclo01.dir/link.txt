@@ -1,0 +1,1 @@
+/usr/sbin/c++ -rdynamic CMakeFiles/ciclo01.dir/ciclo01.cc.o -o ciclo01 
