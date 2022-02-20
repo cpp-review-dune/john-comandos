@@ -6,3 +6,5 @@ add_executable(vector01 vector01.cc)
 
 add_executable(span span.cc)
 
+add_executable(shared shared.cc)
+

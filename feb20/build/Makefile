@@ -142,6 +142,43 @@ span/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/span.dir/build.make CMakeFiles/span.dir/build
 .PHONY : span/fast
 
+#=============================================================================
+# Target rules for targets named shared
+
+# Build rule for target.
+shared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shared
+.PHONY : shared
+
+# fast build rule for target.
+shared/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/build
+.PHONY : shared/fast
+
+shared.o: shared.cc.o
+.PHONY : shared.o
+
+# target to build an object file
+shared.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/shared.cc.o
+.PHONY : shared.cc.o
+
+shared.i: shared.cc.i
+.PHONY : shared.i
+
+# target to preprocess a source file
+shared.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/shared.cc.i
+.PHONY : shared.cc.i
+
+shared.s: shared.cc.s
+.PHONY : shared.s
+
+# target to generate assembly for a file
+shared.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shared.dir/build.make CMakeFiles/shared.dir/shared.cc.s
+.PHONY : shared.cc.s
+
 span.o: span.cc.o
 .PHONY : span.o
 
@@ -198,8 +235,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... shared"
 	@echo "... span"
 	@echo "... vector01"
+	@echo "... shared.o"
+	@echo "... shared.i"
+	@echo "... shared.s"
 	@echo "... span.o"
 	@echo "... span.i"
 	@echo "... span.s"
