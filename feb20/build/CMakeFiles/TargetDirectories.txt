@@ -1,0 +1,4 @@
+/workspace/john-comandos/feb20/build/CMakeFiles/vector01.dir
+/workspace/john-comandos/feb20/build/CMakeFiles/span.dir
+/workspace/john-comandos/feb20/build/CMakeFiles/edit_cache.dir
+/workspace/john-comandos/feb20/build/CMakeFiles/rebuild_cache.dir

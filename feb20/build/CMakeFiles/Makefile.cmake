@@ -43,5 +43,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ciclo01.dir/DependInfo.cmake"
+  "CMakeFiles/vector01.dir/DependInfo.cmake"
+  "CMakeFiles/span.dir/DependInfo.cmake"
   )
